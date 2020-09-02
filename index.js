@@ -1,4 +1,10 @@
-document.querySelector('button').addEventListener("click",handleClick)
+document.querySelectorAll('button').forEach(function(item){
+  item.addEventListener("click",handleClick)
+})
+
+
+
+
 
 function handleClick(){
   alert('i got clicked');
