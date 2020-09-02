@@ -1,11 +1,10 @@
-document.querySelectorAll('button').forEach(function(item){
-  item.addEventListener("click",handleClick)
+
+
+document.querySelectorAll('button').forEach(function(item) {
+  item.addEventListener("click", handleClick)
 })
 
 
-
-
-
-function handleClick(){
+function handleClick() {
   alert('i got clicked');
 }
