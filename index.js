@@ -1,12 +1,9 @@
 
 
-document.querySelectorAll('drum').forEach(function(item) {
-  item.addEventListener("click", handleClick)
-})
-
-
-var
-if(var i=0;i<)
+var drumButton=document.querySelectorAll('.drum').length;
+if(var i=0;i<drumButton;i++){
+  document.querySelectorAll('.drum')[i].addEventListener('click',handleClick());
+}
 
 
 
