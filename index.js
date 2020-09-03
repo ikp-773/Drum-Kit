@@ -11,7 +11,7 @@ for (var i = 0; i < drumButton; i++) {
 function handleClick() {
 
 
-
+console.log(this.styles.color='black');
 }
 
 
