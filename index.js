@@ -8,5 +8,5 @@ for(var i=0;i<drumButton;i++){
 }
 
 function handleClick() {
-  alert('i got clicked');
+  new audio=Audio('')
 }
