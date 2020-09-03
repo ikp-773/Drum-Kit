@@ -17,7 +17,8 @@ footer {
 }
 
 .w {
-background-image: url('images/tom-1.png');
+background-image: url("images/tom1.png");
+color: #000;
 
 }
 
