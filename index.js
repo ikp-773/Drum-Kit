@@ -51,3 +51,7 @@ function makeSound(key) {
       console.log(key);
   }
 }
+
+function buttonAnimation(key){
+  var activeButton=document.querySelector('.'+key).classList.toggle('.pressed');
+}
