@@ -60,6 +60,7 @@ background-image: url("images/tom1.png");
 }
 
 .pressed {
+  font-size: 10rem;
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
