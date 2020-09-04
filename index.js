@@ -12,9 +12,8 @@ function handleClick() {
 
 }
 
-function handleKeybord(){
-
-}
+function handleKeybord(event){
+console.log(event);}
 
 function sound(key) {
   switch (key) {
