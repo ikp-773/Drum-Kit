@@ -6,6 +6,15 @@ for (var i = 0; i < drumButton; i++) {
 
 document.addEventListener('keypress', handleKeybord);
 
+function handleClick() {
+  var key = this.innerHTML;
+  sound(key);
+
+}
+
+function handleKeybord(){
+
+}
 
 function sound(key) {
   switch (key) {
