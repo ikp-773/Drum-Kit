@@ -5,8 +5,7 @@ for (var i = 0; i < drumButton; i++) {
 }
 
 
-function handleClick() {
-  var key = this.innerHTML;
+function sound(){
   switch (key) {
     case 'w':
       var tom1 = new Audio('sounds/tom-1.mp3');
@@ -39,4 +38,9 @@ function handleClick() {
     default:
       console.log(key);
   }
+}
+
+function handleClick() {
+  var key = this.innerHTML;
+
 }
