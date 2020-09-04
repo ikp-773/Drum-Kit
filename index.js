@@ -8,12 +8,15 @@ document.addEventListener('keydown', handleKeybord);
 
 function handleClick() {
   var key = this.innerHTML;
+  buttonAnimation(key)
+
   makeSound(key);
 
 }
 
 function handleKeybord(event) {
   var key=event.key;
+  buttonAnimation(key)
   makeSound(key);
 }
 
@@ -53,5 +56,5 @@ function makeSound(key) {
 }
 
 function buttonAnimation(key){
-  var activeButton=document.querySelector('.'+key).classList.toggle('.pressed');
+  var activeButton=document.querySelector('.'+key).classList.toggle('pressed');
 }
