@@ -29,9 +29,13 @@ function handleClick() {
       snare.play();
       break;
     case 'k':
-      var tom1 = new Audio('sounds/tom-1.mp3');
-      tom1.play();
+      var crash = new Audio('sounds/crash.mp3');
+      crash.play();
       break;
+      case 'w':
+        var tom1 = new Audio('sounds/tom-1.mp3');
+        tom1.play();
+        break;
     default:console.log(key);
   }
 }
