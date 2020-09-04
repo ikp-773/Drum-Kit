@@ -4,7 +4,7 @@ for (var i = 0; i < drumButton; i++) {
   document.querySelectorAll(".drum")[i].addEventListener('click', handleClick);
 }
 
-document.addEventListener('keypress',handleKeybord);
+document.addEventListener('keypress', handleKeybord);
 
 
 function sound(key) {
