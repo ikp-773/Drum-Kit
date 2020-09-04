@@ -4,19 +4,20 @@ for (var i = 0; i < drumButton; i++) {
   document.querySelectorAll(".drum")[i].addEventListener('click', handleClick);
 }
 
-document.addEventListener('keypress', handleKeybord);
+document.addEventListener('keydown', handleKeybord);
 
 function handleClick() {
   var key = this.innerHTML;
-  sound(key);
+  makeSound(key);
 
 }
 
 function handleKeybord(event) {
-  console.log(event);
+  var key=event.key;
+  makeSound(key);
 }
 
-function sound(key) {
+function makeSound(key) {
   switch (key) {
     case 'w':
       var tom1 = new Audio('sounds/tom-1.mp3');
