@@ -51,9 +51,3 @@ function makeSound(key) {
       console.log(key);
   }
 }
-
-function handleClick() {
-  var key = this.innerHTML;
-  sound(key);
-
-}
